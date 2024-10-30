@@ -1,0 +1,51 @@
+---
+title: "Answers"
+author: "Naman Nimbale"
+date: "2024-10-30"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Q1
+
+ What does your commit history look like now? What branches do you have,
+and what commits are they pointing to? Where does HEAD point?
+
+I have three commits and one branche i.e., main:
+1. the initial commit to initialize R files. 
+2. Commit to change in llr and test_llr files.
+3. Commit to update benchmark_llr.
+
+Head points to main.
+
+### Q2
+
+What changed when you checked out speed-test-1? Where does HEAD point
+now? If you make changes and commit them, where will the master and speed-test-1
+branches point?
+
+I got into a new branch, having the same set of files from main branch. The master/main will be pointing previous commit and head will be pointing to speed-test-1.
+
+
+### Q3
+
+The apply function multiplies each column of𝑋 by the weight vector Wz element-wise, without the need to construct a full diagonal matrix.
+
+### Q4
+
+Question 3: Which version of the function is faster?
+
+The speed-test-1 version is fasted than the previous one.
+
+### Q5
+
+Question 4: What function did you use? Why is it equivalent to the matrix multiplication?
+
+
+
+
+
+
